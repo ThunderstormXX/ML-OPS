@@ -1,6 +1,6 @@
-# Описание 
+# Описание
 
-Добавил линейную регрессию, загрузчик данных, обучение и тест модели 
+Добавил линейную регрессию, загрузчик данных, обучение и тест модели
 
 Запускать main.py
 
@@ -17,11 +17,10 @@ poetry run python3 'file' (no module named numpy) --> решилось с пом
 
 poetry env use  /home/igoreshka/miniconda3/envs/gt/bin/python3.8 (Выбор окружения)
 
-Добавить новый модуль : poetry add 'name' ( не нужен , можно прописать в dependences и сделать poetry update ) 
+Добавить новый модуль : poetry add 'name' ( не нужен , можно прописать в dependences и сделать poetry update )
 
 Как импортить пакет из другой директории ?
 
 pip install pre-commit
 pre-commit install (in first)
 pre-commit run --all-files (Не работает)
-
