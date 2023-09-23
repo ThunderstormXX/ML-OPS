@@ -16,3 +16,4 @@ if __name__ == '__main__' :
     print('MSE :' ,result)
 
     print('hello')
+    print('hello2')
