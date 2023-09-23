@@ -24,3 +24,11 @@ poetry env use  /home/igoreshka/miniconda3/envs/gt/bin/python3.8 (Выбор о�
 pip install pre-commit
 pre-commit install (in first)
 pre-commit run --all-files (Не работает)
+
+
+## Как комитить
+
+git add -A
+pre-commit run --all-files
+git commit
+git push
