@@ -2,7 +2,9 @@
 
 Добавил линейную регрессию, загрузчик данных, обучение и тест модели
 
-Запускать main.py
+Запускать main.py (poetry run python3 main.py)
+
+
 
 # ЗАМЕТКИ ПО ВСЕМУ
 poetry build 'dir'
@@ -29,6 +31,6 @@ pre-commit run --all-files (Не работает)
 ## Как комитить
 
 git add -A
-pre-commit run --all-files
 git commit
+pre-commit run --all-files
 git push
